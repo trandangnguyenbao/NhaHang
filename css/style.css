@@ -1,0 +1,1451 @@
+/** Website template by freewebsitetemplates.com **/
+body {
+	margin :0;
+	padding :0;
+	background :url("../images/bg-body.jpg");
+	line-height :25px;
+}
+a {
+	outline :0;
+}
+img {
+	border :0;
+}
+@font-face {
+	font-family :'NunitoRegular';
+	src :url('../fonts/nunito-regular-webfont.eot');
+	src :url('../fonts/nunito-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/nunito-regular-webfont.woff') format('woff'),
+		url('../fonts/nunito-regular-webfont.ttf') format('truetype'),
+		url('../fonts/nunito-regular-webfont.svg#NunitoRegular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face {
+	font-family :'Lobster1.4Regular';
+	src :url('../fonts/lobster-webfont.eot');
+	src :url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/lobster-webfont.woff') format('woff'),
+		url('../fonts/lobster-webfont.ttf') format('truetype'),
+		url('../fonts/lobster-webfont.svg#Lobster1.4Regular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+@font-face {
+	font-family :'LimelightRegular';
+	src :url('../fonts/limelight-webfont.eot');
+	src :url('../fonts/limelight-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/limelight-webfont.woff') format('woff'),
+		url('../fonts/limelight-webfont.ttf') format('truetype'),
+		url('../fonts/limelight-webfont.svg#LimelightRegular') format('svg');
+	font-weight :normal;
+	font-style :normal;
+}
+#header {
+	height :205px;
+	width :100%;
+	background :transparent url("../images/bg-navigation.png");
+	background-repeat :repeat-x;
+	background-position :bottom;
+}
+#header div {
+	width :960px;
+	margin :0 auto;
+	height :203px;
+	position :relative;
+}
+#header div a img {
+	border :0;
+	float :right;
+	overflow :hidden;
+}
+#header div img.logo {
+	border :0;
+	float :left;
+	overflow :hidden;
+	margin-top :40px;
+}
+#header div ul.navigation {
+	margin :0;
+	padding :0;
+	list-style-type :none;
+	position :absolute;
+	left :0px;
+	top :160px;
+	overflow :hidden;
+	width :700px;
+}
+#header div ul.navigation li {
+	float :left;
+}
+#header div ul.navigation li:first-child a {
+	padding-left :0;
+}
+#header div ul.navigation li a {
+	text-decoration :none;
+	padding :0 15px;;
+	font-family :'Lobster1.4Regular';
+	font-size :16px;
+	color :#ebe9d7;
+	font-size :21px;
+}
+#header div ul.navigation li a.active {
+	color :rgb(233, 73, 73);
+}
+#body {
+	width :960px;
+	margin :0 auto;
+	overflow :hidden;
+}
+#body .featured {
+	width :960px;
+	overflow :hidden;
+	margin-bottom :0;
+}
+#body .featured img {
+	border :0;
+}
+#body .featured h2 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#1b6568;
+	display :block;
+	font-weight :normal;
+}
+#body .featured p {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#4c1407;
+}
+#body .featured p a {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#4c1407;
+}
+#body .featured p a:hover {
+	color :#80210b;
+}
+#body .featured ul {
+	list-style-type :none;
+	margin :40px 0 0 0;
+	padding :0;
+}
+#body .featured ul li {
+	float :left;
+	width :320px;
+	height :242px;
+	text-align :center;
+}
+#body .featured ul li {
+	background :transparent url("../images/frame.png");
+	background-repeat :no-repeat;
+	background-position :top;
+	height :202px;
+	width :280px;
+	padding :8px 22px 22px 18px;
+}
+#body #content {
+	width :960px;
+	margin :30px 0;
+	height :auto;
+	padding-top :18px;
+	background :transparent url("../images/bg-content-top.png");
+	background-position :center top;
+	background-repeat :no-repeat;
+}
+#body #content div {
+	width :960px;
+	background :transparent url("../images/bg-content-bottom.png");
+	background-position :center bottom;
+	background-repeat :no-repeat;
+	padding-bottom :22px;
+}
+#body #content div div {
+	width :860px;
+	padding :10px 50px 20px 50px;
+	background :transparent url("../images/bg-content.png");
+	background-position :center center;
+	background-repeat :repeat-y;
+}
+#body #content div div h1 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#1b6568;
+	font-weight :normal;
+	margin-bottom :50px;
+}
+#body #content div div ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#body #content div div ul li {
+	float :none;
+	margin :0 0 50px 0;
+	padding :0;
+}
+#body #content div div ul li h4 {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#822619;
+	font-weight :normal;
+}
+#body #content div div ul li h2 {
+	font-family :'Lobster1.4Regular';
+	font-size :18px;
+	color :#822619;
+	font-weight :normal;
+}
+#body #content div div ul li h2 a {
+	font-family :'Lobster1.4Regular';
+	font-size :24px;
+	color :#822619;
+	text-decoration :none;
+	font-weight :normal;
+}
+#body #content div div ul li p {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#822619;
+	font-weight :normal;
+}
+#body #content div div ul li p a {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#822619;
+	font-weight :normal;
+	text-decoration :underline;
+}
+#body #content div div ul li p a:hover {
+	color:#a0210b;
+}
+#body #content div div ul li p span {
+	font-family :'NunitoRegular';
+	font-size :14px;
+	color :#822619;
+	font-weight :normal;
+}
+#body #content div div ul li h2 a:hover {
+	color :#80210b;
+}
+#body .content div div form label {
+	display :block;
+}
+#body .content div div form label span {
+	display :block;
+	color :#4c1407;
+	font-family :'NunitoRegular';
+	font-size :16px;
+	font-weight :normal;
+}
+#body .content div div form label input {
+	background :transparent url("../images/interface.png") no-repeat 0 -77px;
+	width :286px;
+	height :20px;
+	border :0;
+	padding :5px;
+	margin-bottom :10px;
+}
+#body .content div div form label textarea {
+	background :transparent url("../images/interface.png") no-repeat 0 -157px;
+	width :522px;
+	height :206px;
+	border :0;
+	padding :5px;
+	margin-bottom :5px;
+}
+#body .content div div form input[type="submit"] {
+	background :transparent url("../images/button.png") no-repeat 0 -450px;
+	width :101px;
+	height :36px;
+	border :0;
+	padding :5px;
+	margin-bottom :20px;
+	cursor :pointer;
+}
+#body .content div div form input[type="submit"]:hover {
+	background :transparent url("../images/button.png") no-repeat 0 -364px;
+}
+#body .content {
+	width :620px;
+	margin :30px 40px 30px 0;
+	height :auto;
+	padding-top :18px;
+	background :transparent url("../images/bg-content-top2.png");
+	background-position :center top;
+	background-repeat :no-repeat;
+	float :left;
+}
+#body .content div {
+	width :620px;
+	background :transparent url("../images/bg-content-bottom2.png");
+	background-position :center bottom;
+	background-repeat :no-repeat;
+	padding-bottom :12px;
+}
+#body .content div div {
+	width :540px;
+	padding :10px 40px 20px 40px;
+	background :transparent url("../images/bg-content2.png");
+	background-position :center center;
+	background-repeat :repeat-y;
+}
+#body .content div div h4 {
+	font-size :24px;
+	color :#822619;
+	font-family :'Lobster1.4Regular';
+	font-weight :normal;
+}
+#body .content div div p {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#4c1407;
+	text-align :justify;
+}
+#body .content div div p a {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#4c1407;
+}
+#body .content div div p a:hover {
+	color :#80210b;
+}
+#body .content div div h1 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#80210b;
+	font-weight :normal;
+}
+#body .content div div h1::after {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :pink;
+	font-weight :normal;
+}
+#body .content div div ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+	width :580px;
+	margin-left :-22px;
+}
+#body .content div div ul li {
+	margin-bottom :20px;
+	border-style :dotted;
+	border-top :none;
+	border-left :none;
+	border-right :none;
+	padding :0 25px 10px 25px;
+	position :relative;
+}
+#body .content div div ul li.last {
+	border :none;
+}
+#body .content div div ul li h2 a {
+	font-family :'Lobster1.4Regular';
+	font-size :24px;
+	color :#822619;
+	font-weight :normal;
+	text-decoration :none;
+}
+#body .content div div ul li p form button{
+	font-family: 'Courier New', Courier, monospace;
+	height: 35px;
+	width: 85px;
+	border-radius: 5px;
+	border-color:teal ;
+	background-color: #822619;
+}
+#body .content div div ul li p form input{
+	text-decoration: none;
+	font-family: 'ArchivoMedium', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: wheat;
+}
+#body .content div div ul li button.specific{
+	display: block;
+	font-family: 'ArchivoMedium', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	height: 35px;
+	width: 90px;
+	border-radius: 5px;
+	border-color:teal ;
+	margin-left: 100px;
+	margin-top: -100px;
+	background-color: #822619;
+}
+#body .content div div ul li button.specific:hover{
+	font-family: 'ArchivoMedium', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	height: 35px;
+	width: 90px;
+	border-radius: 5px;
+	border-color:teal ;
+	background-color: rgb(189, 156, 156);
+}
+#body .content div div ul li button.specific a{
+	text-decoration: none;
+	font-family: 'ArchivoMedium', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: wheat;
+}
+#body .content div div ul li button.specific a:hover{
+	text-decoration: none;
+	font-family: 'ArchivoMedium', Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: rgb(230, 217, 43);
+}
+#body .content div div ul li p {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#822619;
+	font-weight :normal;
+	text-decoration :none;
+	width :440px;
+}
+#body .content div div ul li p a {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#822619;
+	font-weight :normal;
+}
+/*
+#body .content div div ul li p a:hover {
+	font-family :'NunitoRegular';
+	font-size :16px;
+	color :#80210b;
+	font-weight :normal;
+}*/
+#body .content div div ul li span.price {
+	background :transparent url("../images/icon.png") no-repeat 0 -673px;
+	width :70px;
+	height :70px;
+	display :block;
+	text-align :center;
+	line-height :70px;
+	font-family :'LimelightRegular';
+	color :#ebe9d7;
+	font-size :28px;
+	position :absolute;
+	left :490px;
+	top :0px;
+}
+#body .content div div div {
+	background :none;
+	text-align :center;
+	width :530px;
+	margin :0;
+	padding :0;
+}
+#body .sidebar {
+	width :280px;
+	float :left;
+	margin :30px 0;
+	text-align :center;
+	padding-top :30px;
+}
+#body .sidebar h1 {
+	color :#1b6568;
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	font-weight :normal;
+	margin-bottom :10px;
+}
+#body .sidebar span {
+	color :#4c1407;
+	font-family :'NunitoRegular';
+	font-size :16px;
+	font-weight :normal;
+	display :block;
+}
+#body .sidebar ul.navigation {
+	list-style-type :none;
+	margin :50px 0 0 0;
+	padding :0;
+}
+#body .sidebar ul.navigation li {
+	border-style :solid;
+	border-color :#822619;
+	border-left :none;
+	border-right :none;
+	border-top :none;
+	height :50px;
+	line-height :50px;
+}
+#body .sidebar ul.navigation li.first {
+	border-style :solid;
+	border-color :#822619;
+	border-left :none;
+	border-right :none;
+}
+#body .sidebar ul.navigation li a {
+	text-decoration :none;
+	font-family :'LimelightRegular';
+	font-size :32px;
+	color :#822619;
+	text-align :center;
+	font-weight :normal;
+}
+#body .sidebar ul.navigation li a:hover {
+	color :#1b6568;
+	font-size :32px;
+	font-family :'LimelightRegular';
+}
+#body .sidebar ul.navigation li a.active {
+	color :#1b6568;
+	font-size :32px;
+	font-family :'LimelightRegular';
+}
+#body .sidebar a.download {
+	background :transparent url("../images/button.png") no-repeat 0 -96px;
+	display :block;
+	height :46px;
+	width :278px;
+	line-height :46px;
+	text-decoration :none;
+	color :#ebe9d7;
+	font-size :26px;
+	font-family :'Lobster1.4Regular';
+	margin-top :40px;
+}
+#body .sidebar a.download:hover {
+	background :transparent url("../images/button.png") no-repeat 0 0;
+}
+#body .sidebar ul li.last {
+	border-bottom :none;
+}
+#body .sidebar ul {
+	list-style-type :none;
+	margin :0 0 50px 0;
+	padding :0;
+}
+#body .sidebar ul li.first {
+	border-style :dotted;
+	border-color :#822619;
+	border-left :none;
+	border-right :none;
+	border-top :dotted;
+}
+#body .sidebar ul li {
+	border-style :dotted;
+	border-color :#822619;
+	border-left :none;
+	border-right :none;
+	border-top :none;
+	line-height :18px;
+	padding :10px 10px;
+	font-family :'NunitoRegular';
+}
+#body .sidebar ul li a {
+	font-family :'NunitoRegular';
+	text-decoration :none;
+	color :#3e1c14;
+	font-size :16px;
+}
+#body .sidebar ul li a:hover {
+	font-family :'NunitoRegular';
+	text-decoration :none;
+	color :#1B6568;
+	font-size :16px;
+}
+#body .sidebar ul {
+	margin-top :30px;
+}
+#body div#section {
+	float :left;
+	height :auto;
+	margin :30px 40px 30px 0;
+	padding-top :18px;
+	width :620px;
+}
+#body div#section div.section {
+	background :transparent url("../images/bg-blog-top.png");
+	background-repeat :no-repeat;
+	background-position :top center;
+	width :532px;
+	padding-top :18px;
+	margin :0 0 50px 0;
+	position :relative;
+	left :20px;
+	float :right;
+}
+#body div#section div.section div {
+	background :transparent url("../images/bg-blog-bottom.png");
+	background-repeat :no-repeat;
+	background-position :center bottom;
+	width :532px;
+	padding-bottom :25px;
+}
+#body div#section div.section div div {
+	background :transparent url("../images/bg-blog-center.png");
+	background-repeat :repeat-y;
+	background-position :center;
+	width :452px;
+	padding :10px 40px 10px 40px;
+}
+#body div#section div.section div div a img {
+	border :0;
+	margin :0 20px 0 0;
+	float :left;
+}
+#body div#section div.section div div h2 {
+	font-family :'LimelightRegular';
+	color :#1b6568;
+	font-size :28px;
+	font-weight :normal;
+	margin :0;
+	padding :0;
+	text-transform :uppercase;
+	width :auto;
+}
+#body div#section div.section div div h2 a {
+	font-family :'LimelightRegular';
+	color :#822619;
+	font-size :28px;
+	font-weight :normal;
+	text-decoration :none;
+	line-height :30px;
+}
+#body div#section div.section div div h2 a:hover {
+	color :#1b6568;
+	text-decoration :none;
+}
+#body div#section div.section div div h3 {
+	font-family :'NunitoRegular';
+	color :#4c1407;
+	font-size :14px;
+	font-weight :normal;
+	margin :25px 0 0 0;
+	padding :0;
+	width :auto;
+}
+#body div#section div.section div div h3 a {
+	color :#80210b;
+	text-decoration :underline;
+}
+#body div#section div.section div div a {
+	text-decoration :underline;
+	color :#80210b;
+}
+#body div#section div.section div div a:hover {
+	text-decoration :underline;
+}
+#body div#section div.section div div a span {
+	font-family :'NunitoRegular';
+	color :#80210b;
+	font-size :14px;
+	font-weight :normal;
+	padding :0;
+	width :auto;
+}
+#body div#section div.section div div p {
+	font-family :'NunitoRegular';
+	color :#4c1407;
+	font-size :14px;
+	width :auto;
+	margin-top :70px;
+}
+#body div#section div.section div div a.price {
+	background :transparent url("../images/icon.png") no-repeat 0 0;
+	width :90px;
+	height :69px;
+	display :block;
+	padding-top :20px;
+	text-align :center;
+	font-family :'LimelightRegular';
+	font-size :24px;
+	color :#ebe9d7;
+	text-decoration :none;
+	position :absolute;
+	top :0;
+	left :-100px;
+}
+#body div#section div.section div div a.price span {
+	display :block;
+	font-family :'LimelightRegular';
+	font-size :24px;
+	color :#ebe9d7;
+}
+#footer {
+	height :130px;
+	width :100%;
+	padding :20px 0;
+	margin-top :20px;
+	background :transparent url("../images/bg-footer.jpg");
+	background-repeat :repeat-x;
+	background-position :top;
+	background-color :#1b6568;
+}
+#footer div {
+	width :960px;
+	margin :0 auto;
+}
+#footer div ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#footer div ul li.first {
+	text-align :left;
+}
+#footer div ul li img {
+	border :0;
+}
+#footer div ul li {
+	float :left;
+	width :300px;
+	padding :0 5px;
+	text-align :center;
+}
+#footer div ul li.last {
+	padding-left :75px;
+	width :250px;
+}
+#footer div ul li h2 {
+	color :#ebe9d7;
+	font-family :'Lobster1.4Regular';
+	font-weight :normal;
+	font-size :18px;
+	margin :10px 0;
+	padding :0;
+}
+#footer div ul li h3 {
+	color :#ebe9d7;
+	font-family :'Lobster1.4Regular';
+	font-size :24px;
+	font-weight :normal;
+	margin :10px 0;
+	padding :0;
+}
+#footer div ul li ul {
+	list-style-type :none;
+	margin :0;
+	padding :0;
+}
+#footer div ul li img.logo {
+	margin-top :20px;
+}
+#footer div ul li ul li {
+	float :left;
+	width :auto;
+	margin :0 5px;
+	padding :0;
+}
+#footer div ul li ul .connect li {
+	float :left;
+	width :auto;
+	margin :0 5px;
+	padding :0;
+}
+#footer div ul li ul li a.facebook {
+	background :transparent url("../images/icon.png") no-repeat 0 -228px;
+	float :left;
+	height :39px;
+	width :39px;
+}
+#footer div ul li ul li a.facebook:hover {
+	background :transparent url("../images/icon.png") no-repeat 0 -139px;
+}
+#footer div ul li ul li a.twitter {
+	background :transparent url("../images/icon.png") no-repeat 0 -584px;
+	float :left;
+	height :39px;
+	width :39px;
+}
+#footer div ul li ul li a.twitter:hover {
+	background :transparent url("../images/icon.png") no-repeat 0 -495px;
+}
+#footer div ul li ul li a.googleplus {
+	background :transparent url("../images/icon.png") no-repeat 0 -406px;
+	float :left;
+	height :39px;
+	width :92px;
+}
+#footer div ul li ul li a.googleplus:hover {
+	background :transparent url("../images/icon.png") no-repeat 0 -317px;
+}
+#footer div ul li input[type="submit"] {
+	background :transparent url("../images/button.png") no-repeat 0 -278px;
+	width :215px;
+	height :36px;
+	border :0;
+	cursor :pointer;
+}
+#footer div ul li input[type="submit"]:hover {
+	background :transparent url("../images/button.png") no-repeat 0 -192px;
+}
+#footer div ul li input {
+	background :transparent url("../images/interface.png") no-repeat 0 0;
+	border :0;
+	width :220px;
+	height :17px;
+	padding :5px 5px;
+	text-align :center;
+	font-family :'NunitoRegular';
+	font-size :12px;
+	margin-bottom :10px;
+}
+#footer div ul li span {
+	display :block;
+	color :#ebe9d7;
+	font-family :'NunitoRegular';
+	font-size :14px;
+}
+#footer div ul li ul.navigation {
+	list-style-type :none;
+	margin :0 auto;
+	padding :10px 0 0 0;
+	display :inline-block;
+	overflow :hidden;
+	height :20px;
+}
+#footer div ul li ul.navigation li {
+	margin :0;
+	padding :0;
+}
+#footer div ul li ul.navigation li a {
+	color :#ebe9d7;
+	font-family :'NunitoRegular';
+	font-weight :normal;
+	font-size :14px;
+	text-decoration :none;
+	padding :0 10px;
+	display :block;
+	border-style :solid;
+	border-right :none;
+	border-top :none;
+	border-bottom :none;
+	border-color :#ebe9d7;
+	border-width :1px;
+
+	line-height :20px;
+}
+#footer div ul li ul.navigation li a:hover {
+	text-decoration :underline;
+}
+#footer div ul li ul.navigation li:first-child a {
+	border-left :none;
+}
+
+.modal{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.modal__overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.4);
+}
+.modal__body{
+	width: 400px;
+	height: 400px;
+	background-color: #1B6568;
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	z-index: 3;
+	margin-top: 10%;
+}
+.login-form{
+	z-index: 2;
+}
+
+/* login Title */
+.login-title {
+	padding: 50px 0;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.login-title h1 {
+	margin: 0 0 0px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+.login-title span {
+	font-size: 12px;
+}
+.login-title span .fa {
+	color: #33b5e5;
+}
+.login-title span a {
+	color: #33b5e5;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.login {
+	width: 400px;
+	margin: 16px auto;
+	font-size: 16px;
+}
+.login-header,
+.login p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.login-triangle {
+	width: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border: 12px solid transparent;
+	border-bottom-color: #28d;
+}
+
+.login-header {
+  background: #33b5e5;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.grid {
+    background: rgb(229, 239, 240);
+    padding:25px;
+  }
+.login input[type="text"],
+.login input[type="Email"],
+.login input[type="password"] {
+  background: rgb(252, 249, 249);
+  margin: 25px 0px;
+  color:#0c0606;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 13px;
+  outline:none;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+.login-container input[type="email"] {
+	color:#111010;
+}
+.login input[type="text"]:focus,
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #c4e533;
+}
+.login input[type="submit"]:hover {
+  background:rgb(34, 159, 221);
+}
+
+.social-links {
+      margin: 0px 0px 20px 0px;
+  	  text-align: center;
+}
+.bottom {
+   margin: 20px 0;
+}
+.bottom-header h3 {
+    color: #33b5e5;
+    text-align: center;
+    font-size:20px;
+	margin-top: 0px;
+}
+.bottom-header p {
+	padding:12px;
+}
+.social-links ul li {
+    display: inline-block;
+}
+
+.social-links a {
+	width: 40px;
+  	height: 40px;
+  	display: inline-block;
+  	border-radius: 50%;
+  	font-size: 24px;
+  	color: #fff;
+	opacity: 0.75;
+	transition: opacity 0.15s linear;
+}
+
+.social-links a:hover {
+	opacity: 1;
+}
+.social-links i {
+    line-height: 43px;
+    font-size: 20px;
+}
+
+.facebook{
+	background-color: #28d;
+	margin-left: -35px;
+}
+
+.twitter{
+     background: #55acee;
+}
+
+.google{
+     background: #e62b12;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    background-color:#ef4d4d;
+    color: white;
+    padding: 12px 20px;
+   
+    border: none;
+	font-size:14px;
+	letter-spacing:1px;
+    cursor: pointer;
+	outline:none;
+	transition: .5s ease-in;
+}
+
+input[type=submit]:hover {
+    background-color:rgba(51, 229, 78, 0.62);
+}
+
+.bottom-text {
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 12px;
+  text-align: center;
+}
+.bottom-text p  {
+	font-size:14px;
+}
+.bottom-text a {
+  color: #33b5e5;
+  text-decoration: none;
+  font-size:14px;
+	}
+
+.bottom-text p a{
+	color:#33b5e5;
+	margin-left: 5px;
+    transition: .5s ease-in;
+}
+.bottom-text p a:hover {
+	color:#ef4d4d;
+	
+}
+.bottom-text h4 a{
+    color: #33b5e5;
+    margin-left: 5px;
+    transition: .5s ease-in;
+}
+.bottom-text h4 a:hover {
+	color:#ef4d4d;
+	
+}
+
+.modal__overlay1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.4);
+}
+.modal__body1{
+	width: 800px;
+	height: 650px;
+	background-color: #1B6568;
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	z-index: 3;
+	margin-top:0px;
+}
+.datban{
+	width: 800px;
+	height: 650px;
+	background-color: rgb(229, 239, 240) ;
+	border-radius: 10px;
+}
+.datban .title{
+	height: 100px;
+	width: 100%;
+}
+.datban .title h2.datban-header{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lobster1.4Regular';
+	padding-top: 30px;
+}
+.datban .title span.title{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 20%;
+}
+.datban .grid .datban-container{
+	width: 100%;
+	height: 450px;
+	background-color: rgb(229, 239, 240) ;
+}
+
+.datban .grid .datban-container input[name = "ten"]{
+	height: 30px;
+	width: 100%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container .index{
+	height: 30px;
+	display: flex;
+	width: 100%;
+}
+.datban .grid .datban-container input[name = "phone"]{
+	height: 30px;
+	width: 47%;
+	border-radius: 15px;
+	display: flex;
+	border: white;
+}
+.datban .grid .datban-container input[name = "Email"]{
+	display: flex;
+	height: 30px;
+	width: 47%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container input[name = "ngay"]{
+	height: 30px;
+	width: 55%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container select[name = "gio"]{
+	height: 35px;
+	width: 20%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container select[name = "phut"]{
+	height: 35px;
+	width: 20%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container input[name = "khach"]{
+	height: 30px;
+	width: 100%;
+	border-radius: 15px;
+	border: white;
+}
+.datban .grid .datban-container input[name = "loinhan"]{
+	height: 150px;
+	width: 100%;
+	border-radius: 15px;
+	border: white;
+	text-align: start;
+}
+.datban .grid .datban-container input[name = "submit"]{
+	margin-left: 40%;
+	margin-top: 5%;
+	height: 50px;
+	width: 150px;
+	background-color: black;
+	color:burlywood;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#body .body__item{
+	padding-top: 50px;
+	height: 380px;
+	width: 100%;
+	margin-top: 5%;
+	display: flex;
+	background-color: #ddd;
+	border-radius: 10px;
+}
+#body .body__item .image{
+	width: 30%;
+}
+#body .body__item .Title{
+	margin-left: 20%;
+	width: 60%;
+}
+#body .body__item h2{
+	color:black;
+	font-family:'Lobster1.4Regular' ;
+	margin-top: 0px;
+}
+#body .body__item ul.Title1{
+	display: flex;
+	list-style: none;
+	margin-left: -40px;
+	margin-top: -10px;
+}
+#body .body__item ul.Title1 li{
+	font-size: 20px;
+	color:#FF9727;
+}
+#body .body__item ul.Title1 span{
+	font-size: 20px;
+	color:red;
+}
+#body .body__item ul.Title2{
+	display: flex;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: -40px;
+}
+#body .body__item ul.Title2 h2{
+	font-size: 25px;
+	color: red;
+}
+#body .body__item ul.Title2 p{
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 15px;
+}
+#body .body__item ul.Title2 p.tk{
+	margin-left: 20px;
+	margin-top: 4px;
+	font-size: 15px;
+}
+#body .body__item ul.Title3{
+	display: flex;
+	list-style: none;
+	margin-top: -10px;
+	margin-left: -40px;
+}
+#body .body__item ul.Title3 h3{
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+#body .body__item ul.Title3 form input.num{
+	font-size: 15px;
+	height: 20px;
+	width: 80px;
+	margin-left: 20px;
+	text-align: center;
+}
+#body .body__item ul.inner{
+	display: flex;
+	margin-top: 0px;
+	margin-left: -40px;
+}
+#body .body__item ul.inner button{
+	height: 40px;
+	width: 150px;
+	background-color: #80210b;
+	border-radius: 8px;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #ddd;
+}
+#body .body__item ul.inner h2.share{
+	margin-left: 200px;
+	margin-top: -40px;
+	font-size: 20px;
+	color: black;
+}
+#body .body__item ul.inner i#fb{
+	margin-left: 10px;
+	font-size: 35px;
+	margin-top: -50px;
+	color: royalblue;
+	
+}
+#body .body__item ul.inner i#pt{
+	margin-left: 10px;
+	font-size: 35px;
+	margin-top: -50px;
+	color: red;
+}
+#body .body__item ul.inner i#tw{
+	margin-left: 10px;
+	font-size: 35px;
+	margin-top: -50px;
+	color: rgb(64, 108, 241);
+}
+#body  .danhgia{
+	height: 30px;
+	width: 50%;
+}
+#body .danhgia button.tt{
+	height: 40px;
+	width: 160px;
+	background-color: white;
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+	border: none;
+}
+#body .danhgia button.nx{
+	height: 40px;
+	width: 160px;
+	background-color: rgb(150, 147, 144);
+	font-size: 20px;
+	color: black;
+	border: none;
+}
+#body .danhgia2{
+	margin-top: 12px;
+	width: 100%;
+	height: 70px;
+	background-color:white;
+}
+#body .danhgia2 span{
+	font-size: 20px;
+	line-height: 70px;
+	margin-left: 15px;
+}
+#body .danhgia2 span b{
+	font-size: 15px;
+	font-family:'Lobster1.4Regular';
+	color: burlywood;
+}
+#body .danhgia1{
+	height: 550px;
+	width: 100%;
+	background-color: whitesmoke;
+	margin-top: -10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#body .danhgia1 h1{
+	font-size: 20px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+#body .danhgia1 div{
+	margin-left: 3%;
+	height: 300px;
+	width: 95%;
+	border-radius: 15px;
+	background-color: #ddd;
+}
+#body .danhgia1 div span{
+	margin-left: 25px;
+	color: burlywood;
+}
+#body .danhgia1 div ul{
+	display: flex;
+	list-style: none;
+	margin-left: -20px;
+	margin-top: 10px;
+}
+#body .danhgia1 div ul li i{
+	color: #eebf02;
+	font-size: 20px;
+}
+#body .danhgia1 div ul li button{
+	margin-left: 10px;
+	background-color: whitesmoke;
+}
+#body .danhgia1 div form{
+	height: 150px;
+	width: 95%;
+	margin-left: 2%;
+}
+#body .danhgia1 div form input[name ="binhluan"]{
+	height: 150px;
+	width: 50%;
+	border-radius: 10px;
+	border:none;
+}
+#body .danhgia1 div form input[name = "hoten"]{
+	display: block;
+	height: 45px;
+	width: 48%;
+	margin-left: 51%;
+	margin-top: -150px;
+	border-radius: 2px;
+	border: none;
+}
+#body .danhgia1 div form input[name = "email"]{
+	display: block;
+	height: 45px;
+	width: 48%;
+	margin-left: 51%;
+	margin-top: -20px;
+	border-radius: 2px;
+	border: none;
+}
+#body .danhgia1 div form input[name = "gui"]{
+	display: block;
+	height: 45px;
+	width: 135px;
+	margin-left: 51%;
+	margin-top: -20px;
+	border-radius: 2px;
+	border: none;
+}#body .danhgia1 ul.dg1{
+	list-style: none;
+	margin-top: 0px;
+	display: flex;
+}
+#body .danhgia1 ul.dg1 li p{
+	color: black;
+	font-size: 15px;
+	font-weight: bolder;
+}
+#body .danhgia1 ul.dg1 li span{
+	font-size: 15px;
+	font-weight: bolder;
+	color: rgb(29, 28, 28);
+	margin-top: 15px;
+	display: block;
+	margin-left: 660px;
+}
+#body .danhgia1 ul.dg1 li select{
+	font-size: 12px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#body .danhgia1 .dg2{
+	height: 70px;
+	width: 100%;
+	display: flex;
+	background-color:whitesmoke;
+}
+#body .danhgia1 .dg2 div{
+	height: 50px;
+	width: 50px;
+	background-color: #ddd;
+	margin-left: 0px;
+	border-radius: 0px;
+}
+#body .danhgia1 .dg2 i{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#body .danhgia1 .dg2 input{
+	height: 43px;
+	width: 89%;
+}
+#body .danhgia1 .dg3{
+	height: 30px;
+	width: 100%;
+	background-color:whitesmoke;
+	display: flex;
+}
+#body .danhgia1 .dg3 i{
+	font-size: 15px;
+	color: darkblue;
+}
+#body .danhgia1 .dg3 span{
+	font-size: 15px;
+	color: blue;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+
+#body ul.splq{
+	height: 214px;
+	width: 100%;
+	display: flex;
+	list-style: none;
+}
